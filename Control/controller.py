@@ -36,10 +36,8 @@ class Controller(tk.Frame):
         self.current_view.pack()
 
     def login(self, username, password):
-        # Aqui estamos removendo a verificação rígida de "usuário" e "senha"
-        # Permitindo que qualquer combinação de entrada prossiga para o cadastro
         return True
 
     def register(self, company_name, person_name, num_employees):
-        # Aqui você pode adicionar a lógica para salvar os dados de cadastro, se necessário
+
         print(f"Empresa: {company_name}, Pessoa: {person_name}, Funcionários: {num_employees}")
